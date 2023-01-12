@@ -1,0 +1,84 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.shortcut {
+  height: 31px;
+  background-color: #f1f1f1;
+  line-height: 31px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.shortcut ul li {
+  float: left;
+}
+
+.style_red {
+  color: #c81623;
+}
+
+.shortcut .fr ul li:nth-child(even){
+  width: 1px;
+  height: 12px;
+  background-color: #666;
+  margin: 9px 15px 0;
+  font-family: "iconfont";
+  
+}
+
+.arrow-icon::after{
+  font-family: "iconfont";
+  content: '\e602';
+}
+
+.header{
+  height: 105px;
+  position: relative;
+}
+
+.logo{
+  width: 171px;
+  height: 61px;
+  position: absolute;
+  top: 25px;
+}
+
+.logo a{
+  display: block;
+  width: 171px;
+  height: 61px;
+  font-size: 0;
+  background: url('https://i0.hdslb.com/bfs/archive/f7129d5e1e50d2de82a68a31c67ce462b21268c9.jpg@672w_378h_1c_!web-home-common-cover.avif');
+}
+.search{
+  width: 539px;
+  height: 36px;
+  position: absolute;
+  left: 346px;
+  top: 25px;
+  background-color: #b1191a;
+  border: 2px solid #b1191a;
+}
+
+.search input{
+  width: 455px;
+  height: 32px;
+  padding-left: 10px;
+  float: left;
+}
+
+.search button{
+  width: 80px;
+  height: 32px;
+  background-color: #b1191a;
+  float: left;
+  font-size: 16px;
+  color: #fff;
+}
